@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Black Asylum';
+  src: url('black_asylum.ttf');
+}
+
+* {
+  margin: 0px;
+  font-family: 'Black Asylum';
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 28px;
+    font-size: 17px;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    border-radius: 9px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+}
+
+#main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.return-anchor {
+    text-decoration: none;
+}
+
+#card_img {
+    width: 120px;
+    height: 210px;
+}
+
+#date {
+    font-family: 'Monospace';
+}
+
+#error {
+    color: red;
+}
